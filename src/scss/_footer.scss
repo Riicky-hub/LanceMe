@@ -1,0 +1,8 @@
+.footer {
+    padding: 2rem 0;
+    text-align: center;
+    &_text {
+        color: $color-01;
+        font-size: $font-size-small;
+    }
+}

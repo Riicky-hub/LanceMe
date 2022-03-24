@@ -1,0 +1,21 @@
+.howWorks {
+    background: white;
+    padding: 35px 0;
+    &_title {
+        padding: 10px 0;
+        color: $color-02;
+        font-size: $font-size-large;
+        font-weight: 700;
+    }
+    &_col {
+        text-align: center;
+    }
+    &_text {
+        font-size: $font-size-small;
+    }
+}
+@media (max-width: 600px) {
+    .howWorks_title {
+        padding: 10px 25px;
+    }
+}

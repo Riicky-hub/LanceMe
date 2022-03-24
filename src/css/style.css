@@ -136,7 +136,7 @@ header .container-fluid .row .navbar #navMobileMenu .active {
 }
 .products_card {
   background: rgba(250, 250, 250, 0.2);
-  padding: 10px 0;
+  padding: 10px;
   border-radius: 5px;
   margin: 10px 0;
   text-align: center;
@@ -148,6 +148,7 @@ header .container-fluid .row .navbar #navMobileMenu .active {
   font-size: 1.8rem;
 }
 .products_card--text {
+  padding: 15px 15px;
   text-align: left;
   font-size: 1.4rem;
 }
@@ -166,6 +167,37 @@ header .container-fluid .row .navbar #navMobileMenu .active {
   border-color: #2D5381;
   color: #ddd;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.748);
+}
+
+.howWorks {
+  background: white;
+  padding: 35px 0;
+}
+.howWorks_title {
+  padding: 10px 0;
+  color: #E68745;
+  font-size: 2.1rem;
+  font-weight: 700;
+}
+.howWorks_col {
+  text-align: center;
+}
+.howWorks_text {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 600px) {
+  .howWorks_title {
+    padding: 10px 25px;
+  }
+}
+.footer {
+  padding: 2rem 0;
+  text-align: center;
+}
+.footer_text {
+  color: #ddd;
+  font-size: 1.4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
