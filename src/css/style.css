@@ -71,7 +71,7 @@ header .container-fluid .row .navbar {
   padding: 0 30px;
 }
 header .container-fluid .row .navbar .navbar-toggler {
-  background: #17a2b8;
+  background: #206aaf;
   font-size: 2.1rem;
 }
 header .container-fluid .row .navbar #navMobileMenu .nav-link {
@@ -90,9 +90,6 @@ header .container-fluid .row .navbar #navMobileMenu .active {
 
 .section_banner {
   text-align: center;
-}
-.section_banner .row {
-  height: 77vh;
 }
 .section_banner_img {
   padding: 15px 0;
@@ -189,6 +186,12 @@ header .container-fluid .row .navbar #navMobileMenu .active {
 @media (max-width: 600px) {
   .howWorks_title {
     padding: 10px 25px;
+  }
+}
+@media (min-width: 992px) {
+  .howWorks_col {
+    width: 19.992%;
+    padding-bottom: 30px;
   }
 }
 .footer {

@@ -19,3 +19,9 @@
         padding: 10px 25px;
     }
 }
+@media (min-width: 992px) {
+    .howWorks_col {
+        width: calc(8.33% * 2.4);
+        padding-bottom: 30px;
+    }
+}
