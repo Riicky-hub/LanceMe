@@ -1,0 +1,43 @@
+.products {
+    background: $color-01;
+    padding: 30px 15px;
+    &_title {
+        padding: 5px 0;
+        font-size: $font-size-large;
+        font-weight: 700;
+        color: $color-02;
+    }
+    &_card {
+        background: rgba(250, 250, 250, .2);
+        padding: 10px 0;
+        border-radius: 5px;
+        margin: 10px 0;
+        text-align: center;
+        &--title {
+            padding: 15px 0;
+            color: $color-02;
+            font-weight: 700;
+            font-size: $font-size-medium;
+        }
+        &--text {
+            text-align: left;
+            font-size: $font-size-small;
+        }
+        &--btn {
+            background: $bg-color-body-dark-alt;
+            border-color: $bg-color-body-dark-alt;
+            color: $color-01;
+            align-items: center;
+            margin: 15px 0;
+            padding: 7px 25px;
+            font-size: $font-size-small;
+            transition: all 0.5s ease-in-out;
+            &:hover {
+                background: $bg-color-body;
+                border-color: $bg-color-body;
+                color: $color-01;
+                box-shadow: 0 0 1em rgba(0, 0, 0, 0.748);
+            }
+        }
+    }
+}
