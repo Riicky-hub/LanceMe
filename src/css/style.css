@@ -1,0 +1,127 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background: #2D5381;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+header {
+  padding: 10px 0;
+}
+header .container-fluid {
+  padding: 0 30px;
+}
+header .container-fluid .row {
+  align-items: center;
+}
+header .container-fluid .row .navbar {
+  width: 100%;
+  padding: 0 30px;
+}
+header .container-fluid .row .navbar .navbar-toggler {
+  background: #4380ca;
+  font-size: 2.1rem;
+}
+header .container-fluid .row .navbar #navMobileMenu .nav-link {
+  padding-left: 10px;
+  color: #ddd;
+  font-size: 1.8rem;
+  transition: all 0.5 ease-in-out;
+}
+header .container-fluid .row .navbar #navMobileMenu .nav-link:hover {
+  color: white;
+  text-shadow: 0 0 2px #ddd;
+}
+header .container-fluid .row .navbar #navMobileMenu .active {
+  color: white;
+}
+
+.section_banner {
+  text-align: center;
+}
+.section_banner .row {
+  height: 77vh;
+}
+.section_banner_img {
+  padding: 15px 0;
+}
+.section_banner_text {
+  font-size: 1.8rem;
+  color: #ddd;
+  font-weight: bold;
+  padding: 30px 20px 0 20px;
+}
+
+.section_aboutUs {
+  margin: 25px 0;
+}
+.section_aboutUs .aboutUs {
+  background-color: #284A73;
+  text-align: left;
+  padding: 10px 15px;
+}
+.section_aboutUs .aboutUs_title {
+  color: #E68745;
+  font-size: 2.1rem;
+  font-weight: 700;
+  padding: 5px 0;
+}
+.section_aboutUs .aboutUs_text {
+  color: #ddd;
+  font-size: 1.4rem;
+  padding: 10px 0;
+}
+
+/*# sourceMappingURL=style.css.map */

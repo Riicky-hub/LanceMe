@@ -1,0 +1,32 @@
+header {
+    padding: 10px 0;
+    .container-fluid {
+        padding: 0 30px;
+        .row {
+            align-items: center;
+            .navbar {
+                width: 100%;
+                padding: 0 30px;
+                .navbar-toggler {
+                    background: $bg-color-body-light;
+                    font-size: $font-size-large;
+                }
+                #navMobileMenu {
+                    .nav-link {
+                        padding-left: 10px;
+                        color: $color-01;
+                        font-size: $font-size-medium;
+                        transition: all 0.5 ease-in-out;
+                        &:hover {
+                            color: white;
+                            text-shadow: 0 0 2px $color-01;
+                        }
+                    }
+                    .active {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

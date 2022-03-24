@@ -1,0 +1,19 @@
+.section_aboutUs {
+    margin: 25px 0;
+    .aboutUs {
+        background-color: $bg-color-body-dark-alt;
+        text-align: left;
+        padding: 10px 15px;
+        &_title {
+            color: $color-02;
+            font-size: $font-size-large;
+            font-weight: 700;
+            padding: 5px 0;
+        }
+        &_text {
+            color: $color-01;
+            font-size: $font-size-small;
+            padding: 10px 0;
+        }
+    }
+}

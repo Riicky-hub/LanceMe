@@ -1,0 +1,15 @@
+.section_banner {
+    text-align: center;
+    .row {
+        height: 77vh;
+    }
+    &_img {
+        padding: 15px 0;
+    }
+    &_text {
+        font-size: $font-size-medium;
+        color: $color-01;
+        font-weight: bold;
+        padding: 30px 20px 0 20px;
+    }
+}
