@@ -5,7 +5,7 @@ const cssmin = require('gulp-cssmin');
 const rename = require('gulp-rename');
 const image = require('gulp-imagemin');
 const htmlmin = require('gulp-htmlmin');
-const jsmin = require('gulp-uglify');
+const uglify = require('gulp-uglify');
 const { parallel } = require('gulp');
 
 // Funções
@@ -18,9 +18,9 @@ function tarefaCSS(callback) {
     return callback()
 }
 function tarefaJS(callback) {
-    gulp.src('./node_modules/bootstrap/dist/js/bootstrap.js')
-        .pipe(concat('script.js'))
-        .pipe(jsmin())
+    gulp.src('./src/vendor/bootstrap/js/bootstrap.min.js')
+        .pipe(concat('scripts.js'))
+        .pipe(uglify())
         .pipe(rename({suffix: '.min'}))
         .pipe(gulp.dest('./dist/js'))
     return callback()
